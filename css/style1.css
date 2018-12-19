@@ -1,0 +1,357 @@
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #fff
+}
+
+
+/*Global*/
+
+
+/** {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.branding {
+    color: #eaa221
+}
+
+.branding1 {
+    color: #a85401
+}
+
+a:hover {
+    color: #a85401;
+}
+
+.button_1 {
+    height: 28px;
+    background: #eaa221;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+
+/*header*/
+
+header {
+    background: #fff;
+    color: #021319;
+    padding-top: 10px;
+    min-height: 50px;
+}
+
+header a {
+    color: #021319;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+
+/*showcase*/
+
+#showcase {
+    min-height: 400px;
+    background: url('../img/seats.jpeg') no-repeat 0 -200px;
+    text-align: center;
+    color: #fff;
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+#showcase a {}
+
+
+/* newsletter*/
+
+#newsletter {
+    padding: 15px;
+    color: #fff;
+    background: #090506;
+    border-bottom: #021319 3px solid;
+    text-align: center;
+}
+
+#newsletter form {
+    float: center;
+    margin-top: 15px;
+}
+
+#newsletter input[type='email'] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+    border: #a85401 1px solid;
+}
+
+
+/* boxes*/
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#boxes .box {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#boxes .box img {
+    width: 90px;
+}
+
+
+/* grid*/
+
+#popular .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/* signup css */
+
+.signupBody {
+    background: #fff;
+}
+
+.signupWrap {
+    max-width: 350px;
+    border-radius: 20px;
+    margin: auto;
+    background: #021319;
+    box-sizing: border-box;
+    padding: 40px;
+    color: #fff;
+    margin-top: 70px;
+}
+
+.signupBody h1 {
+    text-align: center;
+}
+
+.signupBody h2 {
+    text-align: center;
+}
+
+.signupBody input[type=text],
+input[type=password],
+input[type=email] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background: fixed;
+    outline: none;
+    border: none;
+    border-bottom: 1px dotted #fff;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.signupBody input[type=submit] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    background: #eaa221;
+    opacity: 0.7;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.signupBody input[type=submit]:hover {
+    background: #a85401;
+}
+
+
+/* signup css */
+
+.loginBody {
+    background: #fff;
+}
+
+.loginwrap {
+    max-width: 350px;
+    border-radius: 20px;
+    margin: auto;
+    background: #021319;
+    box-sizing: border-box;
+    padding: 40px;
+    color: #fff;
+    margin-top: 70px;
+}
+
+.loginBody h1 {
+    text-align: center;
+}
+
+.loginBody h2 {
+    text-align: center;
+}
+
+.loginBody input[type=text],
+input[type=password],
+input[type=email] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background: fixed;
+    outline: none;
+    border: none;
+    border-bottom: 1px dotted #fff;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.loginBody input[type=submit] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    background: #eaa221;
+    opacity: 0.7;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.loginBody input[type=submit]:hover {
+    background: #a85401;
+}
+
+.loginBody a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginBody a:hover {
+    color: #a85401;
+}
+
+.card {
+    float: position: relative;
+    width: 30%;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: 0px 0px 20px #000000b3;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.card-header {
+    height: 300px;
+    overflow: hidden;
+}
+
+.card-header img {
+    height: 100%;
+}
+
+.card-header .cover {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%
+}
+
+.cardContainer {
+    padding: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.left-section {}
+
+.left-section h3 {
+    color: aqua;
+}
+
+.left-section p {
+    margin: 10px 0;
+}
+
+.left-section .followbtn {
+    width: 100px;
+    background: #eaa221;
+    border-radius: 12px;
+    color: #fff;
+    text-align: center;
+    display: block;
+    padding: 8px 0;
+    transition: 0.2s all;
+}
+
+.left-section .followbtn: hover {
+    background: #a85401;
+}
+
+*/

@@ -1,0 +1,376 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+
+
+/*Global*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.branding {
+    color: #eaa221
+}
+
+.branding1 {
+    color: #a85401
+}
+
+a:hover {
+    color: #a85401;
+}
+
+.button_1 {
+    height: 28px;
+    background: #eaa221;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.button_1:hover {
+    background: #a85401;
+}
+
+
+/*header*/
+
+header {
+    background: #021319;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #eaa221 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    float: left;
+    display: block;
+    padding: 0 20px 0 20px;
+    margin-bottom: 5px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+
+/*showcase*/
+
+#showcase {
+    min-height: 400px;
+    background: url('../img/seats.jpeg') no-repeat 0 -200px;
+    text-align: center;
+    color: #fff;
+    border-bottom: #eaa221 3px solid;
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* newsletter*/
+
+#newsletter {
+    padding: 15px;
+    color: #fff;
+    background: #021319;
+    border-bottom: #021319 3px solid;
+    text-align: center;
+}
+
+#newsletter form {
+    float: center;
+    margin-top: 15px;
+}
+
+#newsletter input[type='email'] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+    border: #a85401 1px solid;
+    margin-bottom: 15px;
+}
+
+
+/* boxes*/
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img {
+    width: 90px;
+}
+
+#boxes h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/*sidebar*/
+
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+aside#sidebar .quote input,
+aside#sidebar .quote textarea {
+    width: 90%;
+    padding: 5px;
+}
+
+
+/*main-col*/
+
+article#main-col {
+    float: left;
+    width: 65%;
+}
+
+
+/*services*/
+
+ul#services li {
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+
+
+/* footer*/
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #021319;
+    text-align: center;
+}
+
+@media(max-width: 768px) {
+    header #branding,
+    header nav,
+    header nav li {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+/* signup css */
+
+.signupBody {
+    background: #fff;
+}
+
+.signupWrap {
+    max-width: 350px;
+    border-radius: 20px;
+    margin: auto;
+    background: #021319;
+    box-sizing: border-box;
+    padding: 40px;
+    color: #fff;
+    margin-top: 70px;
+}
+
+.signupBody h1 {
+    text-align: center;
+}
+
+.signupBody h2 {
+    text-align: center;
+}
+
+.signupBody input[type=text],
+input[type=password],
+input[type=email] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background: fixed;
+    outline: none;
+    border: none;
+    border-bottom: 1px dotted #fff;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.signupBody input[type=submit] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    background: #eaa221;
+    opacity: 0.7;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.signupBody input[type=submit]:hover {
+    background: #a85401;
+}
+
+
+/* signup css */
+
+.loginBody {
+    background: #fff;
+}
+
+.loginwrap {
+    max-width: 350px;
+    border-radius: 20px;
+    margin: auto;
+    background: #021319;
+    box-sizing: border-box;
+    padding: 40px;
+    color: #fff;
+    margin-top: 70px;
+}
+
+.loginBody h1 {
+    text-align: center;
+}
+
+.loginBody h2 {
+    text-align: center;
+}
+
+.loginBody input[type=text],
+input[type=password],
+input[type=email] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background: fixed;
+    outline: none;
+    border: none;
+    border-bottom: 1px dotted #fff;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.loginBody input[type=submit] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    background: #eaa221;
+    opacity: 0.7;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.loginBody input[type=submit]:hover {
+    background: #a85401;
+}
+
+.loginBody a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginBody a:hover {
+    color: #a85401;
+}
+
+
+/*services*/
+
+.user-avatar {
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.content img {
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    padding: 5px;
+    float: left;
+    display: block;
+}
+
+.dami {
+    float: left;
+}
