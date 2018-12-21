@@ -101,6 +101,10 @@
                             background: #a85401;
                             color: #fff;
                         }
+                        
+                        img {
+                            object-fit: cover;
+                        }
                         /*header*/
                         
                         header {
@@ -150,6 +154,7 @@
                             text-align: center;
                             color: #fff;
                             border-bottom: #eaa221 3px solid;
+                            object-fit: cover;
                         }
                         
                         #showcase h1 {
@@ -200,6 +205,7 @@
                         
                         #boxes .box img {
                             width: 90px;
+                            object-fit: cover;
                         }
                         
                         #boxes h1 {
@@ -228,6 +234,7 @@
                             width: 100%;
                             height: auto;
                             border-radius: 20px 20px 0px 0px;
+                            object-fit: cover;
                         }
                         
                         .meetupFooter a {
@@ -435,6 +442,7 @@
                             border-radius: 50%;
                             border: 1px solid #ddd;
                             padding: 10px;
+                            object-fit: cover;
                         }
                         
                         .content {
@@ -449,6 +457,7 @@
                             float: left;
                             display: block;
                             align-items: center;
+                            object-fit: cover;
                         }
                         
                         .dami {
@@ -467,6 +476,7 @@
                             display: block;
                             align-items: center;
                             float: left;
+                            object-fit: cover;
                         }
                         
                         .voteFotter a {
@@ -776,6 +786,7 @@
                             width: 100%;
                             height: auto;
                             border-radius: 20px 20px 0 0;
+                            object-fit: cover;
                         }
                         
                         .title {
@@ -829,7 +840,9 @@
                             article#main-col,
                             aside#sidebar,
                             article#main-col1,
-                            aside#sidebar1 {
+                            aside#sidebar1,
+                            .adminprofile-card,
+                            .card {
                                 float: none;
                                 text-align: center;
                                 width: 100%;
